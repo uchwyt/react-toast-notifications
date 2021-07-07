@@ -2,15 +2,13 @@
 /** @jsx jsx */
 
 import React, {
-  Children,
-  Component,
   type Node,
   type ElementRef,
   useEffect,
   useRef,
   useState,
 } from 'react';
-import { jsx, keyframes } from '@emotion/core';
+import { jsx, keyframes } from '@emotion/react';
 
 import { CheckIcon, FlameIcon, InfoIcon, CloseIcon, AlertIcon } from './icons';
 import * as colors from './colors';

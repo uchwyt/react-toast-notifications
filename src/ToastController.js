@@ -1,15 +1,12 @@
 // @flow
 
-import React, { Children, Component, type ComponentType } from 'react';
-import { Transition } from 'react-transition-group';
+import React, { Component, type ComponentType } from 'react';
 
 import { NOOP } from './utils';
 import type { ToastProps } from './ToastElement';
 
 type Props = ToastProps & { component: ComponentType<ToastProps> };
 type State = { isRunning: boolean };
-
-const defaultAutoDismissTimeout = 5000;
 
 const TimerType = {
   clear: NOOP,

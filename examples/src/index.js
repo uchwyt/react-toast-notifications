@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { render } from 'react-dom';
 import { RadioGroup, Radio } from 'react-radios';
-import { jsx } from '@emotion/core';
+import { jsx } from '@emotion/react';
 
 import {
   Body,
