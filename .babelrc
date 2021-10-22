@@ -1,6 +1,22 @@
 {
-  "presets": ["env", "flow", "react"],
-  "plugins": ["transform-class-properties", "transform-object-rest-spread"],
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "entry",
+        "corejs": 3,
+        "modules": "auto",
+        "loose": false
+      }
+    ],
+    "@babel/preset-flow",
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-object-rest-spread",
+    "@emotion"
+  ],
   "ignore": [
     "examples/src/raw/*.js"
   ]

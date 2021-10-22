@@ -1,100 +1,171 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.Y75 = exports.Y500 = exports.Y50 = exports.Y400 = exports.Y300 = exports.Y200 = exports.Y100 = exports.T75 = exports.T500 = exports.T50 = exports.T400 = exports.T300 = exports.T200 = exports.T100 = exports.R75 = exports.R500 = exports.R50 = exports.R400 = exports.R300 = exports.R200 = exports.R100 = exports.P75 = exports.P500 = exports.P50 = exports.P400 = exports.P300 = exports.P200 = exports.P100 = exports.N90A = exports.N900 = exports.N90 = exports.N80A = exports.N800A = exports.N800 = exports.N80 = exports.N70A = exports.N700A = exports.N700 = exports.N70 = exports.N60A = exports.N600A = exports.N600 = exports.N60 = exports.N50A = exports.N500A = exports.N500 = exports.N50 = exports.N40A = exports.N400A = exports.N400 = exports.N40 = exports.N30A = exports.N300A = exports.N300 = exports.N30 = exports.N20A = exports.N200A = exports.N200 = exports.N20 = exports.N10A = exports.N100A = exports.N100 = exports.N10 = exports.N0 = exports.G75 = exports.G500 = exports.G50 = exports.G400 = exports.G300 = exports.G200 = exports.G100 = exports.B75 = exports.B500 = exports.B50 = exports.B400 = exports.B300 = exports.B200 = exports.B100 = void 0;
 // Reds
-var R50 = exports.R50 = '#FFEBE6';
-var R75 = exports.R75 = '#FFBDAD';
-var R100 = exports.R100 = '#FF8F73';
-var R200 = exports.R200 = '#FF7452';
-var R300 = exports.R300 = '#FF5630';
-var R400 = exports.R400 = '#DE350B';
-var R500 = exports.R500 = '#BF2600';
+var R50 = '#FFEBE6';
+exports.R50 = R50;
+var R75 = '#FFBDAD';
+exports.R75 = R75;
+var R100 = '#FF8F73';
+exports.R100 = R100;
+var R200 = '#FF7452';
+exports.R200 = R200;
+var R300 = '#FF5630';
+exports.R300 = R300;
+var R400 = '#DE350B';
+exports.R400 = R400;
+var R500 = '#BF2600'; // Yellows
 
-// Yellows
-var Y50 = exports.Y50 = '#FFFAE6';
-var Y75 = exports.Y75 = '#FFF0B3';
-var Y100 = exports.Y100 = '#FFE380';
-var Y200 = exports.Y200 = '#FFC400';
-var Y300 = exports.Y300 = '#FFAB00';
-var Y400 = exports.Y400 = '#FF991F';
-var Y500 = exports.Y500 = '#FF8B00';
+exports.R500 = R500;
+var Y50 = '#FFFAE6';
+exports.Y50 = Y50;
+var Y75 = '#FFF0B3';
+exports.Y75 = Y75;
+var Y100 = '#FFE380';
+exports.Y100 = Y100;
+var Y200 = '#FFC400';
+exports.Y200 = Y200;
+var Y300 = '#FFAB00';
+exports.Y300 = Y300;
+var Y400 = '#FF991F';
+exports.Y400 = Y400;
+var Y500 = '#FF8B00'; // Greens
 
-// Greens
-var G50 = exports.G50 = '#E3FCEF';
-var G75 = exports.G75 = '#ABF5D1';
-var G100 = exports.G100 = '#79F2C0';
-var G200 = exports.G200 = '#57D9A3';
-var G300 = exports.G300 = '#36B37E';
-var G400 = exports.G400 = '#00875A';
-var G500 = exports.G500 = '#006644';
+exports.Y500 = Y500;
+var G50 = '#E3FCEF';
+exports.G50 = G50;
+var G75 = '#ABF5D1';
+exports.G75 = G75;
+var G100 = '#79F2C0';
+exports.G100 = G100;
+var G200 = '#57D9A3';
+exports.G200 = G200;
+var G300 = '#36B37E';
+exports.G300 = G300;
+var G400 = '#00875A';
+exports.G400 = G400;
+var G500 = '#006644'; // Blues
 
-// Blues
-var B50 = exports.B50 = '#DEEBFF';
-var B75 = exports.B75 = '#B3D4FF';
-var B100 = exports.B100 = '#4C9AFF';
-var B200 = exports.B200 = '#2684FF';
-var B300 = exports.B300 = '#0065FF';
-var B400 = exports.B400 = '#0052CC';
-var B500 = exports.B500 = '#0747A6';
+exports.G500 = G500;
+var B50 = '#DEEBFF';
+exports.B50 = B50;
+var B75 = '#B3D4FF';
+exports.B75 = B75;
+var B100 = '#4C9AFF';
+exports.B100 = B100;
+var B200 = '#2684FF';
+exports.B200 = B200;
+var B300 = '#0065FF';
+exports.B300 = B300;
+var B400 = '#0052CC';
+exports.B400 = B400;
+var B500 = '#0747A6'; // Purples
 
-// Purples
-var P50 = exports.P50 = '#EAE6FF';
-var P75 = exports.P75 = '#C0B6F2';
-var P100 = exports.P100 = '#998DD9';
-var P200 = exports.P200 = '#8777D9';
-var P300 = exports.P300 = '#6554C0';
-var P400 = exports.P400 = '#5243AA';
-var P500 = exports.P500 = '#403294';
+exports.B500 = B500;
+var P50 = '#EAE6FF';
+exports.P50 = P50;
+var P75 = '#C0B6F2';
+exports.P75 = P75;
+var P100 = '#998DD9';
+exports.P100 = P100;
+var P200 = '#8777D9';
+exports.P200 = P200;
+var P300 = '#6554C0';
+exports.P300 = P300;
+var P400 = '#5243AA';
+exports.P400 = P400;
+var P500 = '#403294'; // Teals
 
-// Teals
-var T50 = exports.T50 = '#E6FCFF';
-var T75 = exports.T75 = '#B3F5FF';
-var T100 = exports.T100 = '#79E2F2';
-var T200 = exports.T200 = '#00C7E6';
-var T300 = exports.T300 = '#00B8D9';
-var T400 = exports.T400 = '#00A3BF';
-var T500 = exports.T500 = '#008DA6';
+exports.P500 = P500;
+var T50 = '#E6FCFF';
+exports.T50 = T50;
+var T75 = '#B3F5FF';
+exports.T75 = T75;
+var T100 = '#79E2F2';
+exports.T100 = T100;
+var T200 = '#00C7E6';
+exports.T200 = T200;
+var T300 = '#00B8D9';
+exports.T300 = T300;
+var T400 = '#00A3BF';
+exports.T400 = T400;
+var T500 = '#008DA6'; // Neutrals
 
-// Neutrals
-var N0 = exports.N0 = '#FFFFFF';
-var N10 = exports.N10 = '#FAFBFC';
-var N20 = exports.N20 = '#F4F5F7';
-var N30 = exports.N30 = '#EBECF0';
-var N40 = exports.N40 = '#DFE1E6';
-var N50 = exports.N50 = '#C1C7D0';
-var N60 = exports.N60 = '#B3BAC5';
-var N70 = exports.N70 = '#A5ADBA';
-var N80 = exports.N80 = '#97A0AF';
-var N90 = exports.N90 = '#8993A4';
-var N100 = exports.N100 = '#7A869A';
-var N200 = exports.N200 = '#6B778C';
-var N300 = exports.N300 = '#5E6C84';
-var N400 = exports.N400 = '#505F79';
-var N500 = exports.N500 = '#42526E';
-var N600 = exports.N600 = '#344563';
-var N700 = exports.N700 = '#253858';
-var N800 = exports.N800 = '#172B4D';
+exports.T500 = T500;
+var N0 = '#FFFFFF';
+exports.N0 = N0;
+var N10 = '#FAFBFC';
+exports.N10 = N10;
+var N20 = '#F4F5F7';
+exports.N20 = N20;
+var N30 = '#EBECF0';
+exports.N30 = N30;
+var N40 = '#DFE1E6';
+exports.N40 = N40;
+var N50 = '#C1C7D0';
+exports.N50 = N50;
+var N60 = '#B3BAC5';
+exports.N60 = N60;
+var N70 = '#A5ADBA';
+exports.N70 = N70;
+var N80 = '#97A0AF';
+exports.N80 = N80;
+var N90 = '#8993A4';
+exports.N90 = N90;
+var N100 = '#7A869A';
+exports.N100 = N100;
+var N200 = '#6B778C';
+exports.N200 = N200;
+var N300 = '#5E6C84';
+exports.N300 = N300;
+var N400 = '#505F79';
+exports.N400 = N400;
+var N500 = '#42526E';
+exports.N500 = N500;
+var N600 = '#344563';
+exports.N600 = N600;
+var N700 = '#253858';
+exports.N700 = N700;
+var N800 = '#172B4D'; // ATTENTION: update the tints if you update this
 
-// ATTENTION: update the tints if you update this
-var N900 = exports.N900 = '#091E42';
+exports.N800 = N800;
+var N900 = '#091E42'; // Each tint is made of N900 and an alpha channel
 
-// Each tint is made of N900 and an alpha channel
-var N10A = exports.N10A = 'rgba(9, 30, 66, 0.02)';
-var N20A = exports.N20A = 'rgba(9, 30, 66, 0.04)';
-var N30A = exports.N30A = 'rgba(9, 30, 66, 0.08)';
-var N40A = exports.N40A = 'rgba(9, 30, 66, 0.13)';
-var N50A = exports.N50A = 'rgba(9, 30, 66, 0.25)';
-var N60A = exports.N60A = 'rgba(9, 30, 66, 0.31)';
-var N70A = exports.N70A = 'rgba(9, 30, 66, 0.36)';
-var N80A = exports.N80A = 'rgba(9, 30, 66, 0.42)';
-var N90A = exports.N90A = 'rgba(9, 30, 66, 0.48)';
-var N100A = exports.N100A = 'rgba(9, 30, 66, 0.54)';
-var N200A = exports.N200A = 'rgba(9, 30, 66, 0.60)';
-var N300A = exports.N300A = 'rgba(9, 30, 66, 0.66)';
-var N400A = exports.N400A = 'rgba(9, 30, 66, 0.71)';
-var N500A = exports.N500A = 'rgba(9, 30, 66, 0.77)';
-var N600A = exports.N600A = 'rgba(9, 30, 66, 0.82)';
-var N700A = exports.N700A = 'rgba(9, 30, 66, 0.89)';
-var N800A = exports.N800A = 'rgba(9, 30, 66, 0.95)';
+exports.N900 = N900;
+var N10A = 'rgba(9, 30, 66, 0.02)';
+exports.N10A = N10A;
+var N20A = 'rgba(9, 30, 66, 0.04)';
+exports.N20A = N20A;
+var N30A = 'rgba(9, 30, 66, 0.08)';
+exports.N30A = N30A;
+var N40A = 'rgba(9, 30, 66, 0.13)';
+exports.N40A = N40A;
+var N50A = 'rgba(9, 30, 66, 0.25)';
+exports.N50A = N50A;
+var N60A = 'rgba(9, 30, 66, 0.31)';
+exports.N60A = N60A;
+var N70A = 'rgba(9, 30, 66, 0.36)';
+exports.N70A = N70A;
+var N80A = 'rgba(9, 30, 66, 0.42)';
+exports.N80A = N80A;
+var N90A = 'rgba(9, 30, 66, 0.48)';
+exports.N90A = N90A;
+var N100A = 'rgba(9, 30, 66, 0.54)';
+exports.N100A = N100A;
+var N200A = 'rgba(9, 30, 66, 0.60)';
+exports.N200A = N200A;
+var N300A = 'rgba(9, 30, 66, 0.66)';
+exports.N300A = N300A;
+var N400A = 'rgba(9, 30, 66, 0.71)';
+exports.N400A = N400A;
+var N500A = 'rgba(9, 30, 66, 0.77)';
+exports.N500A = N500A;
+var N600A = 'rgba(9, 30, 66, 0.82)';
+exports.N600A = N600A;
+var N700A = 'rgba(9, 30, 66, 0.89)';
+exports.N700A = N700A;
+var N800A = 'rgba(9, 30, 66, 0.95)';
+exports.N800A = N800A;

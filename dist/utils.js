@@ -1,10 +1,15 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.NOOP = void 0;
 exports.generateUEID = generateUEID;
-var NOOP = exports.NOOP = function NOOP() {};
+
+var NOOP = function NOOP() {};
+
+exports.NOOP = NOOP;
+
 function generateUEID() {
   var first = Math.random() * 46656 | 0;
   var second = Math.random() * 46656 | 0;
