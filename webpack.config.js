@@ -32,6 +32,11 @@ module.exports = {
     ],
   },
   plugins: [htmlPlugin, faviconPlugin, twitterPlugin],
+  externals: [
+    'react',
+    'react-dom',
+    '@emotion/react'
+  ],
   resolve: {
     extensions: ['.js', '.jsx'],
   },
